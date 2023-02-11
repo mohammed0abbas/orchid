@@ -1,0 +1,53 @@
+.img_bg {
+    width: 49%;
+    position: absolute;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    z-index: -1000;
+
+}
+
+
+
+.word-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.img-apout {
+    position: absolute;
+    transform: translateX(13px) translateY(-2px);
+}
+
+.img2 {
+    color: aliceblue;
+    animation-name: car;
+    animation-duration: 3s;
+}
+
+@keyframes car {
+    from {
+        transform: translateX(30%);
+        rotate: 5deg;
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .img_bg {
+        width: 0 !important;
+    }
+   
+
+}
+.about_s{
+    background-color: #13adc14c;
+}

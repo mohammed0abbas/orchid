@@ -1,0 +1,22 @@
+.div-continer1{
+    display: flex;
+    line-height: 170%;
+    width: 100%;
+    
+   
+}
+.div-word{
+    max-width: 577px;
+    min-width: 400px;
+}
+
+.color1{
+    color: #FAA91C;
+}
+
+@media only screen and (min-width:900px){
+    .div-continer1{
+       transform: translateY(-60px);
+        font-size: 110%;
+    }
+}

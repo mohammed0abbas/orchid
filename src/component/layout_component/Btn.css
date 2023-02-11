@@ -1,0 +1,14 @@
+.link-btn{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.727) ;
+    margin:0 12px;
+}
+.link-btn:hover{
+    color:#676f77 ;
+}
+
+button{
+    background-color: #FDD036;
+    border-radius: 0px 90px !important;
+    color: aliceblue;
+}

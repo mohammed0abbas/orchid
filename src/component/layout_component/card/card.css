@@ -1,0 +1,202 @@
+
+.div-card{
+    width: 310px;
+    height: 350px;
+    filter: drop-shadow(-10px 30px 70px #DBDEE1) ;
+    border-radius: 5px;
+    background-color: #ffffffa3;
+    transition: all 0.2s ease-in-out;
+    margin: 0 0 20px 0;
+    
+  
+}
+.btn-card{
+    width: 100% !important;
+    border-radius: 0% 0 18px 18px !important;
+    background-color:#83d5e0 !important;
+    border: none !important;
+    color: rgb(10, 0, 0) !important;
+    position:absolute;
+    bottom: -30px;
+    left: 12px;
+}
+
+
+
+.div-card:hover{
+    transform: scale(1.1) ;
+    
+
+}
+.span-det{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.det-2{
+    border-radius: 0 0 16px 0;
+}
+
+.det{
+    background-color: #707978;
+    border-radius: 0 0 0 16px;
+}
+
+.span-det:hover {
+    background-color:#FDD036 !important;
+    color: #fff !important;
+    transition: all 0.2s ease-in-out;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    
+}
+.div-card img {
+    width: 100%;
+    padding:15px;
+}
+.divcard-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+   
+}
+
+
+.div-card button{
+    width: 180px;
+    padding:4px;
+    margin: auto;
+    background-color:rgba(178, 34, 34, 0);
+    border: 0.5px solid #707978;
+    box-sizing: border-box;
+    border-radius: 25px;
+    color: #707978;
+}
+.section-card{
+    margin-top: 0;
+  
+    
+}
+
+@media only screen and (min-width:1000px) {
+    .section-card{
+       
+       padding: 0 80px;
+        
+    }
+}
+
+.div-card p{
+    margin-bottom: 9px;
+}
+.pman_img{
+    position: relative;
+}
+.pman{
+
+    border: 1px solid #707978;
+    border-radius: 16px;
+    padding: 8px;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(0, 0, 0) !important;
+}
+.man{
+    background-color: rgb(151, 243, 254);
+    filter: opacity(75%);
+    
+}
+.weman{
+    background-color: rgb(244, 196, 233);
+    filter: opacity(80%);
+}
+.foreach{
+    background-image: linear-gradient(100deg, rgb(151, 243, 254),rgb(244, 196, 233));
+    filter: opacity(80%);
+}
+
+
+
+
+
+
+
+.div-card h5{
+    position: absolute;
+    top: 238px;
+    left: 23px;
+    font-weight: 800;
+}
+
+.div-card button{
+    transform: translateY(45px);
+}
+.prand{
+    position:absolute;
+    top:264px;
+    left: 24px;
+}
+.price{
+    position:absolute;
+    right: 20px;
+    top: 280px;
+}
+
+.price-del{
+    position:absolute;
+    right: 20px;
+    top: 258px;
+    color: crimson;
+}
+
+@media only screen and (max-width: 700px) {
+    .div-card{
+        width: 150px;
+        height: 220px;
+       }
+    .div-card img{
+        width: 150px;
+        height: 150px;
+       
+    }
+ 
+    
+    
+
+    .div-card p{
+        margin-bottom: 0px;
+    }
+    
+    .div-card h5{
+        position: absolute;
+        top: 147px;
+        left: 15px;
+        font-weight: 800;
+        font-size: 80%;
+    }
+    .prand{
+        position:absolute;
+        top:165px;
+        left: 15px;
+        font-size: 80%;
+    }
+    .price{
+        position:absolute;
+        right: 10px;
+        top: 165px;
+        font-size: 80%;
+    }
+    .price-del{
+        right: 10px;
+        top: 179px;
+        font-size: 80%;
+    }
+   
+  
+
+}
+    
+

@@ -1,0 +1,34 @@
+.box-contact{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8A8A8A;
+    background-color:#fff;
+    filter: drop-shadow(-8px 10px 15px #DBDEE1);
+    border-radius: 5px;
+}
+
+
+
+.dark-hader{
+    color: rgba(0, 0, 0, 0.733);
+    font-weight: 800;
+}
+
+.div-contact-link a:hover{
+    color:#FAA91C !important;
+  }
+
+@media only screen and (max-width:1040px) {
+    .box-contact[id='3']{
+    margin-top: 50px;
+}
+}
+
+@media only screen and (max-width:690px) {
+    .box-contact[id='2']{
+    margin-top: 50px;
+}
+}

@@ -1,0 +1,17 @@
+.serch-div{
+    background-color: rgba(0, 0, 0, 0.119);
+ 
+    border-radius: 16px;
+    width: 65%;
+    
+ 
+}
+@media only screen and (max-width:900px){
+    .serch-div{
+        width: 90%;
+    }
+}
+.serch{
+   
+    float: left;
+}

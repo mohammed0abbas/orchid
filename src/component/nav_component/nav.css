@@ -1,0 +1,150 @@
+nav {
+   width:79.7%;
+    height: 80px;
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+.div-con{
+    width: 100%;
+    background-color:#13adc14c;
+    backdrop-filter:blur(10px);
+    display: grid;
+    place-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav_link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.medlle-screen{
+    display: none;
+}
+
+
+.dropdown{
+    background-color: black;
+    width: 20px;
+    height: 2.4px;
+    border-radius: 50px;
+    right: 10px;
+    position:absolute;
+    
+
+
+}
+
+.open .dropdown{
+    
+    margin: 0px 8px;
+   
+}
+
+
+.open .dropdown1{
+    transform: rotate(45deg);
+
+}
+
+.open .dropdown2{
+    transform: rotate(-45deg);
+}
+
+.close{
+    position: relative;
+}
+
+.close .dropdown{
+ position:relative;
+    margin: 4px 0px;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .nav_link{display:none;}
+    .medlle-screen{
+        display: flex;
+    }
+
+    nav{
+        padding: 10px;
+    }
+
+
+
+}
+
+ul{
+    background-color: rgba(255, 255, 255, 0.274);
+    backdrop-filter:blur(10px);
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 150px;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    border: rgba(0, 0, 0, 0.075) solid 0.5px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.733);
+    backdrop-filter:blur(200px);
+}
+
+.link-nav{
+    text-decoration: none;
+    color:rgb(73, 72, 72);
+    
+}
+.link-nav:hover{
+    color:#FAA91C;
+    transform: scale(110%);
+
+}
+.active{
+    background-color: #FDD036;
+    padding:0 20px;
+    border-radius: 0px 90px;
+    padding-bottom: 5px;
+}
+.cart-span{
+    position:absolute ;
+    left: 49%;
+}
+
+.cart-span-count{
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    background-color: #fa801c;
+    color: white;
+    padding: 0 5px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.select-lang{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+    background-color: #faa91c1a;
+    border: none;
+    padding: 0 10px;
+    cursor: pointer;
+}
