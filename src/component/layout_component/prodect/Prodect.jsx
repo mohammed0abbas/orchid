@@ -68,7 +68,7 @@ export default function Prodect() {
 
                     {
                         items.map((index) =>
-                            <div key={index.id} className="col-xl-3  d-flex justify-content-center p-0 m-0 col-lg-4 col-sm-6 col-12 mt-4 ">
+                            <div key={index.id} className="col-xl-3  d-flex justify-content-center p-0 m-0 col-lg-4 col-6   mt-4 ">
                                <Card
                                     id={index.id}
                                     price={index.price}

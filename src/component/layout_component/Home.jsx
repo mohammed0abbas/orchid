@@ -12,10 +12,10 @@ import { useState } from 'react'
 
 
 export default function Home() {
-    const [load,setload] = useState(true)
+    const [load, setload] = useState(true)
 
-  
-    
+
+
     const [lang, setlang] = useState('en')
 
     const changeLang = (e) => {
@@ -34,17 +34,20 @@ export default function Home() {
         <>
 
 
-            
 
+
+            <SectionAdvertising />
 
             <div className="div-home">
                 {
                     load ? <Loader /> : <div className="div-continer">
 
-                        <SectionAdvertising />
 
 
-                        <SectionCard/>
+
+
+
+                        <SectionCard />
                         <Sectioncontact />
 
 

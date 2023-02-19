@@ -85,6 +85,18 @@
        padding: 0 80px;
         
     }
+   
+}
+
+
+@media only screen and (max-width:700px) {
+  
+    .pman{
+        font-size:50%;
+        padding: 2px;
+        top: 2px;
+        right: 2px;
+    }
 }
 
 .div-card p{
@@ -155,7 +167,7 @@
 @media only screen and (max-width: 700px) {
     .div-card{
         width: 150px;
-        height: 220px;
+        height: 230px;
        }
     .div-card img{
         width: 150px;
@@ -186,12 +198,12 @@
     .price{
         position:absolute;
         right: 10px;
-        top: 165px;
+        top: 178px;
         font-size: 80%;
     }
     .price-del{
         right: 10px;
-        top: 179px;
+        top: 192px;
         font-size: 80%;
     }
    
