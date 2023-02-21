@@ -9,4 +9,17 @@
 .noncol{
     background-color:rgba(255, 255, 255, 0);
 }
+.slide-container button{
+    background-color:rgba(255, 255, 255, 0.178) !important;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius:0 !important;
+    user-select: none;
+    transition: 0.6s;
+}
+
+
 

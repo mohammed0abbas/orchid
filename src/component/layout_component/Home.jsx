@@ -6,6 +6,7 @@ import Sectioncontact from './home/section_contact/Section_contact'
 import SectionCard from './home/sectioncard/SectionCard'
 import Loader from '../../loader/Loader'
 import { useState } from 'react'
+import  Slider from './home/slider/Slider' 
 
 
 
@@ -35,8 +36,10 @@ export default function Home() {
 
 
 
-
-            <SectionAdvertising />
+            
+            <Slider />
+            
+            {/* <SectionAdvertising /> */}
 
             <div className="div-home">
                 {
@@ -45,7 +48,7 @@ export default function Home() {
 
 
 
-
+                        
 
                         <SectionCard />
                         <Sectioncontact />
