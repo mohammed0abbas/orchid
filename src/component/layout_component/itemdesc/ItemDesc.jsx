@@ -59,7 +59,7 @@ export default function ItemDesc() {
     }
     if(count > 0){
     context.cart.addtocart(item);
-    navget('/cart')
+    navget('/prodect')
     }
 
    

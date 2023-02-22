@@ -48,6 +48,7 @@ const Slider = () => {
         {
             img && img.map(e => {
                 return <div className="each-slide-effect">
+                    <a href={e.url}>
                     <div style={{
                        
 
@@ -57,10 +58,10 @@ const Slider = () => {
                         backgroundSize: 'cover',
 
                     }}>
-                        <span>
-                            Slide 1jjjjjjj
-            </span>
+                        
+                     
                     </div>
+                    </a>
                 </div>
             })
         }

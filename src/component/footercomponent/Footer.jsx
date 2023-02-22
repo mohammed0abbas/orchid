@@ -4,6 +4,7 @@ import icon1 from '../../img/icon/face_white.svg'
 import icon2 from '../../img/icon/insta_white.svg'
 import icon3 from '../../img/icon/twiter_white.svg'
 import logow from '../../image_orched/logow.png'
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 export default function Footer() {
 
@@ -28,7 +29,9 @@ export default function Footer() {
 
         <a href='https://www.facebook.com/orchid.perfume?mibextid=ZbWKwL'><img src={icon1} className='m-4' alt="" /></a>
         <a href='https://instagram.com/orchid_aperfume?igshid=YWJhMjlhZTc='><img src={icon2} className='m-4' alt="" /></a>
-       
+        <a href='https://wa.me/+9647714751409'><font color='white' ><WhatsAppIcon className='m-4'/></font></a>
+
+      
       </div>
 
 

@@ -14,12 +14,20 @@ const Cart = () => {
         phone: '',
         address: '',
         promo: '',
-        name: ''
+        name: '',
+        shippingId: 1
+
 
     })
+
+    const [getShippings, setgetShippings] = useState([])
+
     const context = useContext(Itemcontext);
     const Navigate = useNavigate()
     useEffect(() => {
+        API.get('api/shop/getShippings').then(res => {
+            setgetShippings(res.data.data)
+        })
         console.log(context.cart.cartcon)
         const temp = context.cart.cartcon ? context.cart.cartcon : [];
         let totalprice = 0;
@@ -104,6 +112,7 @@ const Cart = () => {
             "name": info.name,
             "phone": info.phone,
             "address": info.address,
+            "shippingId": info.shippingId,
         }
 
     if(!(info.name===''||info.phone===''||info.address==='' || temparr.length === 0)){
@@ -187,6 +196,30 @@ const Cart = () => {
                                 }} />
 
 
+                        </span>
+                        <span className='span-promo '
+                        style={{
+                            borderRadius: '16px',
+                        }}
+                        >
+                            <select name="getshop" id="" className='promo'
+                            style={{
+                                borderRadius: '8px',
+                                transform: 'translatex(-5px)',
+                                margin: '5px 0',
+                            }}
+                            onChange={e=>{
+                                setinfo({
+                                    ...info,
+                                    shippingId: e.target.value
+                                })
+                            }}
+                            >
+                                {getShippings.map((item) => {
+                                    const temp = item.id === 1 ? true : false
+                                    return <option selected={temp} value={item.id} >{`${item.price}  ${item.name}`}</option>
+                                })}
+                            </select>
                         </span>
 
                         <span className='span-promo'>
