@@ -100,8 +100,10 @@ export default function Contact() {
                                 <h5>البريد الالكتروني</h5>
                                 <a href='mailto:orchid.perfum19@gmail.com' style={{ 'textDecoration': 'none' }}>
                                     <div className='d-flex m-1'>
-                                        <img src={icon1} alt="" width={20} />
-                                        <p className='m-0 p-0'>orchid.perfum19@gmail.com</p>
+                                        
+                                        <p className='m-0 p-0' style={{
+                                            fontSize: '16px',
+                                        }}>orchid.perfum19@gmail.com</p>
                                     </div>
                                 </a>
 

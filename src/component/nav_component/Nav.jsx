@@ -56,7 +56,7 @@ export default function Nav() {
                 <div className='nav_link larg-screen' dir='rtl' >
                     <NavLink activeclassname="active" to={"/"} className='m-3 link-nav' >Home</NavLink>
                     <NavLink activeclassname="active" to={"/prodect"} className='m-3 link-nav' >prodect</NavLink>
-                    <NavLink activeclassname="active" to={"/contact"} className='m-3 link-nav' > contact us</NavLink>
+                    <NavLink activeclassname="active" to={"/contact"} className='m-3 link-nav' >{'contact'}</NavLink>
                     <NavLink activeclassname="active" to={"/other"} className='m-3 link-nav' >other </NavLink>
                   
 
